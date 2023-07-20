@@ -1,0 +1,226 @@
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  overflow: hidden;
+}
+li.nav_left{
+    float: left;
+    display:block;
+    color:white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li.nav_right{
+  float: right;
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+li.nav_right:hover
+{
+    background-color: white;
+    color: black;
+    border-radius: 29px;
+    text-decoration: double white;
+    text-decoration: 0.5px double underline;
+    text-underline-offset: 5px;
+}
+a{
+    color: black;
+}
+a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 29px;
+}
+#first{
+  background-image: url('man.png');
+  color: white;
+  background-repeat: no-repeat;
+  background-position: right center ;
+  margin-right:13%;
+  margin-top: 5%;
+  margin-left:13%;
+}
+#soft{
+  background-image: url('teamwork.jpg');
+  color: white;
+  background-repeat: no-repeat;
+  background-position: left center ;
+  margin-right:13%;
+  margin-top: 5%;
+  margin-left:23%;
+}
+#second{
+  background-image: url('coding_image.png');
+  color: white;
+  background-repeat: no-repeat;
+  background-position: left center ;
+  margin-right:13%;
+  margin-top: 5%;
+  margin-left:23%;
+}
+#second_writing{
+  margin-left: 50%;
+}
+#ab{
+  padding-left: 50%;
+  margin-left: 200px;
+}
+#ac{
+  padding-top: 120px;
+}
+#ad{
+  /* margin-left: 20px; */
+  background-color:aqua;
+  color:white;
+  padding: 13px;
+  border-radius:20px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+#ad:hover{
+  color:aqua;
+  background-color:black;
+  text-decoration: 2px solid aqua underline;
+  text-underline-offset: 2px;
+}
+#ae{
+  color: white;
+  background-color:black;
+  padding: 10px;
+}
+#ae:hover{
+  color: black;
+  background-color: white;
+  border-radius: 2px;
+}
+#af{
+  border: 2px solid rgb(68, 255, 0);
+  padding: 5px;
+  margin: 5px;
+}
+#ag{
+  border: 20px;
+  margin-left: 13%;
+}
+#third{
+  margin-right:13%;
+  margin-left: 13%;
+}
+#ai{
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 20px;
+  text-align: left;
+  /* border: 2px solid yellow; */
+  color: white;
+}
+#aj{
+  text-align: left;
+}
+#ak{
+  margin-left: 50%;
+  border: 2px solid yellow;
+  color: white;
+}
+table,th,td{
+  color:white;
+  margin-left: 15%;
+}
+td{
+  padding: 20px;
+  background-color: rgba(253, 253, 253, 0.21);
+  padding: 30px;
+}
+table.new,th.new,td.new{
+  color:white;
+  margin-left: 0;
+}
+td.new{
+  background-color: rgba(253, 253, 253, 0.21);
+  padding: 90px;
+  /* min-height: 400px; */
+}
+#four{
+  margin-right:13%;
+  margin-left: 13%;
+}
+.form-container {
+  margin: 20px;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  margin-left: 1%;
+  margin-right: 5%;
+  border: 2px solid white;
+  background-color: #333;
+  border-radius: 15px;
+  color: white;
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+.form-group input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+#al{
+  margin-left: 13%;
+  margin-right: 13%;
+  color: white;
+  border: 2px solid white;
+}
+#am{
+  background-color: black;
+}
+#an{
+  float: left;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background-color:white;
+  border-radius: 50px;
+  text-align: center;
+  color:black;
+  font-size: 25px;
+  font-weight: 800;
+  margin-right:8px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#news{
+  margin-bottom: 30px;
+  margin-left: 30%;
+}
+th.news{
+  padding: 20px;
+}
+td.news{
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+td.news:hover{
+  border: 2px solid white;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
